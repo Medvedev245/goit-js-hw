@@ -11,7 +11,8 @@ if (window === null) {
   message = `Недостаточно средств на счету!`;
   console.log(message);
 } else {
-  message = `Вы купили ${window} дроидов, на счету осталось ${credits -
-    totalPrice} кредитов.`;
+  message = `Вы купили ${window} дроидов, на счету осталось ${
+    credits - totalPrice
+  } кредитов.`;
   console.log(message);
 }
