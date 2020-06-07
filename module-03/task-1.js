@@ -1,12 +1,16 @@
 "use strict";
-// const hotel = {
-//   name: "Hills",
-//   stars: 5,
-//   capasity: 200,
+// Напиши скрипт, который, для объекта user, последовательно:
+
+// добавляет поле mood со значением 'happy'
+// заменяет значение hobby на 'skydiving'
+// заменяет значение premium на false
+// выводит содержимое объекта user в формате ключ:значение используя Object.keys() и for...of
+// const user = {
+//   name: 'Mango',
+//   age: 20,
+//   hobby: 'html',
+//   premium: true,
 // };
-// console.log(hotel.name);
-// hotel.stars = 3;
-// console.log(hotel);
 
 const user = {
   name: "Mango",
